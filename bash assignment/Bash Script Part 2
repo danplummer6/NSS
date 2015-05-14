@@ -1,0 +1,44 @@
+Last login: Thu May 14 14:38:21 on ttys000
+Dannys-MacBook-Pro:~ dannyplummer$ ssh sandbox.dev
+danplummer6@sandbox.dev's password: 
+Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.16.0-30-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+Last login: Thu May 14 14:38:31 2015 from 10.0.2.2
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh
+1) cat
+2) dog
+3) quit
+#? 1
+Cats like to sleep.
+#? 2
+Dogs like to play catch.
+#? 3
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh
+Favorite animal?  
+I need an answer! dog
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh
+Favorite animal?  
+I need an answer! 
+I need an answer! 
+I need an answer! 
+I need an answer! dog
+dog was selected.
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh
+Favorite animal? 
+cat was selected.
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh
+A random number is: 10262
+Hint: type  ./my.sh game for a fun diversion!
+danplummer6@sandbox:~$ ./my.sh game
+Guess a random one-digit number! 1
+Nope, try again! 2
+Nope, try again! 3
+Nope, try again! 4
+Good job, 4 is it! youre great at guessing.
+danplummer6@sandbox:~$ 

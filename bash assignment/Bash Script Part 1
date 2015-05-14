@@ -1,0 +1,53 @@
+Last login: Thu May 14 14:24:22 on ttys001
+Dannys-MacBook-Pro:~ dannyplummer$ ssh sandbox.dev
+danplummer6@sandbox.dev's password: 
+Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.16.0-30-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+Last login: Thu May 14 14:24:35 2015 from 10.0.2.2
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh
+there were 0 arguments.
+danplummer6@sandbox:~$ ./my.sh apple orange
+apple
+orange
+there were 2 arguments.
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh -p secret -u dan -a -b -z
+got the A flag
+got the B flag
+I dont know what z is!
+User: dan / Pass: secret
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh
+What is your name!
+Dan
+What is your password?
+What's your favorite animal? Dog
+name: Dan, pass: secret, animal: Dog
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh
+1) cat
+2) dog
+3) bird
+4) fish
+#? 2
+you selected dog!
+danplummer6@sandbox:~$ nano my.sh
+danplummer6@sandbox:~$ ./my.sh
+1) cat
+2) dog
+3) quit
+#? 1
+i'm not sure what that is.
+#? nano my.sh
+i'm not sure what that is.
+#? 3
+i'm not sure what that is.
+#? 3
+i'm not sure what that is.
+#? *
+i'm not sure what that is.
+#? clear
+i'm not sure what that is.
+#? 
