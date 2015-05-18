@@ -1,0 +1,125 @@
+Last login: Mon May 18 11:54:44 on ttys002
+Dannys-MacBook-Pro:~ dannyplummer$ ssh sandbox.dev
+danplummer6@sandbox.dev's password: 
+Welcome to Ubuntu 14.04.2 LTS (GNU/Linux 3.16.0-30-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com/
+Last login: Mon May 18 11:54:52 2015 from 10.0.2.2
+danplummer6@sandbox:~$ sudo apt-get update
+[sudo] password for danplummer6: 
+Ign http://us.archive.ubuntu.com trusty InRelease
+Ign http://us.archive.ubuntu.com trusty-updates InRelease
+Ign http://us.archive.ubuntu.com trusty-backports InRelease
+Ign http://security.ubuntu.com trusty-security InRelease
+Hit http://us.archive.ubuntu.com trusty Release.gpg
+Get:1 http://us.archive.ubuntu.com trusty-updates Release.gpg [933 B]
+Hit http://us.archive.ubuntu.com trusty-backports Release.gpg
+Get:2 http://security.ubuntu.com trusty-security Release.gpg [933 B]
+Hit http://us.archive.ubuntu.com trusty Release            
+Get:3 http://us.archive.ubuntu.com trusty-updates Release [63.5 kB]    
+Get:4 http://security.ubuntu.com trusty-security Release [63.5 kB]             
+Hit http://us.archive.ubuntu.com trusty-backports Release         
+Hit http://us.archive.ubuntu.com trusty/main Sources                           
+Hit http://us.archive.ubuntu.com trusty/restricted Sources                  
+Hit http://us.archive.ubuntu.com trusty/universe Sources                    
+Hit http://us.archive.ubuntu.com trusty/multiverse Sources                  
+Hit http://us.archive.ubuntu.com trusty/main amd64 Packages        
+Hit http://us.archive.ubuntu.com trusty/restricted amd64 Packages 
+Get:5 http://security.ubuntu.com trusty-security/main Sources [80.6 kB]
+Hit http://us.archive.ubuntu.com trusty/universe amd64 Packages           
+Hit http://us.archive.ubuntu.com trusty/multiverse amd64 Packages         
+Hit http://us.archive.ubuntu.com trusty/main i386 Packages
+Hit http://us.archive.ubuntu.com trusty/restricted i386 Packages
+Hit http://us.archive.ubuntu.com trusty/universe i386 Packages                 
+Hit http://us.archive.ubuntu.com trusty/multiverse i386 Packages  
+Get:6 http://security.ubuntu.com trusty-security/restricted Sources [2,061 B]
+Hit http://us.archive.ubuntu.com trusty/main Translation-en                    
+Get:7 http://security.ubuntu.com trusty-security/universe Sources [24.9 kB]
+Hit http://us.archive.ubuntu.com trusty/multiverse Translation-en           
+Get:8 http://security.ubuntu.com trusty-security/multiverse Sources [2,335 B]
+Hit http://us.archive.ubuntu.com trusty/restricted Translation-en            
+Get:9 http://security.ubuntu.com trusty-security/main amd64 Packages [268 kB]
+Hit http://us.archive.ubuntu.com trusty/universe Translation-en           
+Get:10 http://us.archive.ubuntu.com trusty-updates/main Sources [202 kB]     
+Get:11 http://us.archive.ubuntu.com trusty-updates/restricted Sources [2,564 B]
+Get:12 http://us.archive.ubuntu.com trusty-updates/universe Sources [117 kB]   
+Get:13 http://us.archive.ubuntu.com trusty-updates/multiverse Sources [5,161 B]
+Get:14 http://security.ubuntu.com trusty-security/restricted amd64 Packages [8,875 B]
+Get:15 http://us.archive.ubuntu.com trusty-updates/main amd64 Packages [517 kB]
+Get:16 http://security.ubuntu.com trusty-security/universe amd64 Packages [103 kB]
+Get:17 http://security.ubuntu.com trusty-security/multiverse amd64 Packages [3,680 B]
+Get:18 http://security.ubuntu.com trusty-security/main i386 Packages [257 kB]  
+Get:19 http://us.archive.ubuntu.com trusty-updates/restricted amd64 Packages [9,238 B]
+Get:20 http://us.archive.ubuntu.com trusty-updates/universe amd64 Packages [279 kB]
+Get:21 http://security.ubuntu.com trusty-security/restricted i386 Packages [8,846 B]
+Get:22 http://security.ubuntu.com trusty-security/universe i386 Packages [104 kB]
+Get:23 http://us.archive.ubuntu.com trusty-updates/multiverse amd64 Packages [12.0 kB]
+Get:24 http://us.archive.ubuntu.com trusty-updates/main i386 Packages [505 kB] 
+Get:25 http://security.ubuntu.com trusty-security/multiverse i386 Packages [3,828 B]
+Hit http://security.ubuntu.com trusty-security/main Translation-en             
+Hit http://security.ubuntu.com trusty-security/multiverse Translation-en     
+Hit http://security.ubuntu.com trusty-security/restricted Translation-en
+Get:26 http://us.archive.ubuntu.com trusty-updates/restricted i386 Packages [9,256 B]
+Get:27 http://security.ubuntu.com trusty-security/universe Translation-en [58.5 kB]
+Get:28 http://us.archive.ubuntu.com trusty-updates/universe i386 Packages [280 kB]
+Get:29 http://us.archive.ubuntu.com trusty-updates/multiverse i386 Packages [12.1 kB]
+Get:30 http://us.archive.ubuntu.com trusty-updates/main Translation-en [245 kB]
+Hit http://us.archive.ubuntu.com trusty-updates/multiverse Translation-en      
+Hit http://us.archive.ubuntu.com trusty-updates/restricted Translation-en
+Get:31 http://us.archive.ubuntu.com trusty-updates/universe Translation-en [146 kB]
+Hit http://us.archive.ubuntu.com trusty-backports/main Sources                 
+Hit http://us.archive.ubuntu.com trusty-backports/restricted Sources           
+Hit http://us.archive.ubuntu.com trusty-backports/universe Sources             
+Hit http://us.archive.ubuntu.com trusty-backports/multiverse Sources           
+Hit http://us.archive.ubuntu.com trusty-backports/main amd64 Packages          
+Hit http://us.archive.ubuntu.com trusty-backports/restricted amd64 Packages    
+Hit http://us.archive.ubuntu.com trusty-backports/universe amd64 Packages      
+Hit http://us.archive.ubuntu.com trusty-backports/multiverse amd64 Packages    
+Hit http://us.archive.ubuntu.com trusty-backports/main i386 Packages           
+Hit http://us.archive.ubuntu.com trusty-backports/restricted i386 Packages     
+Hit http://us.archive.ubuntu.com trusty-backports/universe i386 Packages       
+Hit http://us.archive.ubuntu.com trusty-backports/multiverse i386 Packages     
+Hit http://us.archive.ubuntu.com trusty-backports/main Translation-en          
+Hit http://us.archive.ubuntu.com trusty-backports/multiverse Translation-en    
+Hit http://us.archive.ubuntu.com trusty-backports/restricted Translation-en    
+Hit http://us.archive.ubuntu.com trusty-backports/universe Translation-en      
+Ign http://us.archive.ubuntu.com trusty/main Translation-en_US                 
+Ign http://us.archive.ubuntu.com trusty/multiverse Translation-en_US           
+Ign http://us.archive.ubuntu.com trusty/restricted Translation-en_US           
+Ign http://us.archive.ubuntu.com trusty/universe Translation-en_US             
+Fetched 3,395 kB in 7s (432 kB/s)                                              
+Reading package lists... Done
+danplummer6@sandbox:~$ sudo apt-get upgrade python
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+python is already the newest version.
+The following packages have been kept back:
+  linux-headers-generic-lts-utopic linux-headers-virtual-lts-utopic
+  linux-image-virtual-lts-utopic linux-virtual-lts-utopic
+The following packages will be upgraded:
+  rsyslog
+1 upgraded, 0 newly installed, 0 to remove and 4 not upgraded.
+Need to get 355 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] yes
+Get:1 http://us.archive.ubuntu.com/ubuntu/ trusty-updates/main rsyslog amd64 7.4.4-1ubuntu2.6 [355 kB]
+Fetched 355 kB in 0s (471 kB/s)  
+(Reading database ... 90802 files and directories currently installed.)
+Preparing to unpack .../rsyslog_7.4.4-1ubuntu2.6_amd64.deb ...
+Unpacking rsyslog (7.4.4-1ubuntu2.6) over (7.4.4-1ubuntu2.5) ...
+Processing triggers for ureadahead (0.100.0-16) ...
+Processing triggers for man-db (2.6.7.1-1ubuntu1) ...
+Setting up rsyslog (7.4.4-1ubuntu2.6) ...
+Installing new version of config file /etc/apparmor.d/usr.sbin.rsyslogd ...
+The user `syslog' is already a member of `adm'.
+rsyslog stop/waiting
+rsyslog start/running, process 18394
+danplummer6@sandbox:~$ python
+Python 2.7.6 (default, Mar 22 2014, 22:59:56) 
+[GCC 4.8.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print "Python is installed"
+Python is installed
+>>> 
